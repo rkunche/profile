@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/profile": {},
+    "/profile/contact": {},
+    "/profile/experience": {},
+    "/profile/projects": {},
+    "/profile/skills": {}
+  }
+}
