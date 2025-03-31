@@ -1,0 +1,25 @@
+.gallery-container {
+  width: 100%; /* Full width */
+  height: auto; /* Adjust based on content */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Remove vertical scroll */
+  white-space: nowrap; /* Keep images in a single row */
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  scroll-behavior: smooth;
+  align-items: center;
+}
+
+.gallery-item {
+  flex: 0 0 auto; /* Prevent shrinking */
+  width: 150px; /* Set width of images */
+  height: 150px; /* Set height of images */
+}
+
+.gallery-item img {
+  width: 100%; /* Ensure image takes full width of its container */
+  height: 100%; /* Ensure image takes full height */
+  object-fit: contain; /* Fit the entire image inside without cropping */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}

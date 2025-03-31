@@ -1,0 +1,36 @@
+.technical-skills-container {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa); /* Light gradient background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif; /* Modern font */
+  }
+  
+  .technical-skills-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333; /* Dark title color */
+    margin-bottom: 10px;
+  }
+  
+  .technical-skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .technical-skills-list li {
+    font-size: 16px;
+    color: #6a0dad; /* Purple color for skills */
+    font-weight: 600; /* Slightly bold */
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd; /* Light separator */
+  }
+  
+  .technical-skills-list li:last-child {
+    border-bottom: none; /* Remove bottom border from last item */
+  }
+  
